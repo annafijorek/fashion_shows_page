@@ -1,0 +1,24 @@
+/* min_width 768px */
+.all_comments, .contacts_box, .all_fashion_show{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.single_comment{
+    width: 31%;
+}
+
+.contacts_box{
+    width: 100%;
+    padding: 20px;
+}
+
+.single_fashion_show {
+    width: 20%;
+}
+
+.map iframe{
+    width: 80%;
+}
+
